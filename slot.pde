@@ -1,8 +1,11 @@
+float VW = 640.0;
+float VH = 480.0;
+
 void setup() {
-    size(400, 400);
-    background(220);
+    fullScreen();
 }
 
 void draw() {
-    ellipse(mouseX, mouseY, 50, 50);
+    scale(width / VW, height / VH);
+    
 }
