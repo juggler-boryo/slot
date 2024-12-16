@@ -117,6 +117,7 @@ class SlotMachine {
             spinning[i] = true;
             spinSpeeds[i] = defaultSpinSpeed;
         }
+        initializePositions();
     }
     
     String getSlotNumbers() {
